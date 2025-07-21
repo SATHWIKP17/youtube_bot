@@ -14,8 +14,8 @@ q=st.text_input("Enter Your Query ")
 lang=st.selectbox("Language",options=["HINDI","TELUGU","FRENCH","GREEK"])
 # os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 try:
-    app=YouTubeTranscriptApi()
-    docs=app.get_transcript("u6qDSFxY4iw")
+    # app=
+    docs=YouTubeTranscriptApi().get_transcript("u6qDSFxY4iw")
     docss=" ".join(doc['text'] for doc in docs)
 except TranscriptsDisabled:
     print("Empty")
