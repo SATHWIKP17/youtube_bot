@@ -1,7 +1,10 @@
-youtube_transcript_api
-langchain_core
-langchain_groq
-langchain_community
-langchain_huggingface
 streamlit
 langchain
+langchain-core
+langchain-groq
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+regex
+youtube-transcript-api
