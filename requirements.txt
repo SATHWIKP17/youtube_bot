@@ -8,6 +8,5 @@ sentence-transformers
 faiss-cpu
 regex
 torch==2.2.0
-sentence-transformers
 langchain
 youtube-transcript-api
