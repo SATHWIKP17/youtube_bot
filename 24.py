@@ -19,7 +19,8 @@ llm=ChatGroq(
     api_key="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"
 )
 embeddin=HuggingFaceEmbeddings( 
-            model_name="sentence-transformers/paraphrase-MiniLM-L6-v2",
+            model_name="sentence-transformers/all-MiniLM-L6-v2",
+            model_kwargs={"device": "cpu"}
         )
 def get_trans(url):
     id=url.split("v=")[1]
